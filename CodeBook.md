@@ -13,35 +13,49 @@ The detailed description of all the processes and transformation of data can be 
 #### `Subject`
 
 Description: Subject identifier
+
 Type: Numeric
+
 Data Range: 1~30
 
 #### `ActNum`
 
 Description: Activity identifier
+
 Type: Numeric
+
 Data Range: 1~6
-1.WALKING
-2.WALKING_UPSTAIRS
-3.WALKING_DOWNSTAIRS
-4.SITTING
-5.STANDING
-6.LAYING 
+
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING 
 
 #### `ActNames`
 
 Description: Activity Names
+
 Type: Character
+
 Data Range: 
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+
+"WALKING"
+
+"WALKING_UPSTAIRS"
+
+"WALKING_DOWNSTAIRS"
+
+"SITTING"
+
+"STANDING"
+
+"LAYING"
 
 #### Others
 Description: Measurement results
+
 Type: Numeric
 
 ### Description of `dataMeanStd`
@@ -49,35 +63,49 @@ Type: Numeric
 #### `Subject`
 
 Description: Subject identifier
+
 Type: Numeric
+
 Data Range: 1~30
 
 #### `ActNum`
 
 Description: Activity identifier
+
 Type: Numeric
+
 Data Range: 1~6
-1.WALKING
-2.WALKING_UPSTAIRS
-3.WALKING_DOWNSTAIRS
-4.SITTING
-5.STANDING
-6.LAYING 
+
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING 
 
 #### `ActNames`
 
 Description: Activity Names
+
 Type: Character
+
 Data Range: 
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+
+"WALKING"
+
+"WALKING_UPSTAIRS"
+
+"WALKING_DOWNSTAIRS"
+
+"SITTING"
+
+"STANDING"
+
+"LAYING"
 
 #### Others
 Description: Measurement results
+
 Type: Numeric
 
 ### Description of `dfData`
@@ -85,10 +113,13 @@ Type: Numeric
 #### `Subject Activity`
 
 Description: unique identifier for subject who performed specific activity
+
 Type: Factor
+
 Data Range: Number in the string identify the subject and the activity names identify the performed activity
 
 #### Others
 Description: Means of measurement results
+
 Type: Numeric
  
